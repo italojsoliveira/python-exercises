@@ -1,7 +1,8 @@
+
 user_input = int(input('Enter a number: '))
 
-antecedent = user_input - 1
+print(  'The double of {} is {}.'.format(user_input, 2 * user_input)  )
 
-successor = user_input + 1
+print(  'The triple of {} is {}.'.format(user_input, 3 * user_input)  )
 
-print('By analyzing number {}, its antecedent is {} and its successor is {}.'.format(user_input, antecedent, successor))
+print(  'The square root of {} is {:.2f}.'.format(user_input, user_input ** 0.5)  )

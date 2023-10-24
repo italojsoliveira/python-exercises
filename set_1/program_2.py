@@ -1,38 +1,20 @@
-# This application will read the mailbox data (mbox.txt) and count the number of email messages per organization 
-# (i.e. domain name of the email address) using a database with the following schema to maintain the counts.
-# CREATE TABLE Counts (org TEXT, count INTEGER)
+# A program that reads the user input and outputs information about it
 
-import sqlite3
+user_input = input('Enter something: ')
 
-conn = sqlite3.connect('emaildb.sqlite')
-cur = conn.cursor()
+print('The Python primitive datatype of this value is', type(user_input))
 
-cur.execute('DROP TABLE IF EXISTS Counts')
+print('Does it have only space?', user_input.isspace())
 
-cur.execute('''
-CREATE TABLE Counts (org TEXT, count INTEGER)''')
+print('Is it a number?', user_input.isnumeric())
 
-fname = '/Users/italo/Desktop/python-exercises/set_1/mbox.txt'
-fh = open(fname)
-for line in fh:
-    if not line.startswith('From: '): continue
-    pieces = line.split()
-    email = pieces[1]
-    domain_name = email.split('@')[1]#.split('.')[0]
-    cur.execute('SELECT count FROM Counts WHERE org = ? ', (domain_name,))
-    row = cur.fetchone()
-    if row is None:
-        cur.execute('''INSERT INTO Counts (org, count)
-                VALUES (?, 1)''', (domain_name,))
-    else:
-        cur.execute('UPDATE Counts SET count = count + 1 WHERE org = ?',
-                    (domain_name,))
-    conn.commit()
+print('Is it alphabetic?', user_input.isalpha())
 
-# https://www.sqlite.org/lang_select.html
-sqlstr = 'SELECT org, count FROM Counts ORDER BY count DESC LIMIT 10000'
+print('Is it alphanumeric?', user_input.isalnum())
 
-for row in cur.execute(sqlstr):
-    print(str(row[0]), row[1])
+print('Is it in uppercase?', user_input.isupper())
 
-cur.close()
+print('Is it in lowercase?', user_input.islower())
+
+print('Is it capitalized?', user_input.istitle())
+

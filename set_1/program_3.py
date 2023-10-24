@@ -1,20 +1,7 @@
-# A program that reads the user input and outputs information about it
+user_input = int(input('Enter a number: '))
 
-user_input = input('Enter something: ')
+antecedent = user_input - 1
 
-print('The Python primitive datatype of this value is', type(user_input))
+successor = user_input + 1
 
-print('Does it have only space?', user_input.isspace())
-
-print('Is it a number?', user_input.isnumeric())
-
-print('Is it alphabetic?', user_input.isalpha())
-
-print('Is it alphanumeric?', user_input.isalnum())
-
-print('Is it in uppercase?', user_input.isupper())
-
-print('Is it in lowercase?', user_input.islower())
-
-print('Is it capitalized?', user_input.istitle())
-
+print('By analyzing number {}, its antecedent is {} and its successor is {}.'.format(user_input, antecedent, successor))

@@ -1,8 +1,11 @@
+# average of two student grades
 
-user_input = int(input('Enter a number: '))
+grade_1 = float(input('Enter the first grade: '))
 
-print(  'The double of {} is {}.'.format(user_input, 2 * user_input)  )
+grade_2 = float(input('Enter the second grade: '))
 
-print(  'The triple of {} is {}.'.format(user_input, 3 * user_input)  )
+print('The first student grade is {}.'.format(grade_1))
 
-print(  'The square root of {} is {:.2f}.'.format(user_input, user_input ** 0.5)  )
+print('The second student grade is {}.'.format(grade_2))
+
+print('The average between {} and {} is {}'.format(grade_1, grade_2, (grade_1 + grade_2)/2))
