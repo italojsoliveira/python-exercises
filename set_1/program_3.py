@@ -1,3 +1,4 @@
+# A program that reads the user input and outputs information about it
 
 user_input = input('Enter something: ')
 
