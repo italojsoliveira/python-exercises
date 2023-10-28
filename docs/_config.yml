@@ -1,8 +1,8 @@
-title: Security Modeling in ArchiMate
+title: List of Exercises in Python
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Repository: https://github.com/unibz-core/security-archimate
+  Repository: https://github.com/italojsoliveira/python-exercises

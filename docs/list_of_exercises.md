@@ -1,3 +1,8 @@
+---
+title: Home
+layout: home
+---
+
 # List of Exercises in Python
 
 #### Exercise 1
@@ -62,3 +67,4 @@ Write a program that receives an amount in the US dollar from the user and outpu
 #### Exercise 9
 
 
+---
