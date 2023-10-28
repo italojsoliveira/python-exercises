@@ -5,6 +5,10 @@ layout: home
 
 # List of Exercises in Python
 
+Coding exercises and solutions in Python from my studies and practice. Here I make it publicly open for whoever finds it helpful.
+
+I expect to write more than a thousand exercises with solutions. This is a work in progress. The last commit shows the latest updates.
+
 #### Exercise 1
 
 Write a program that reads the user name as an input and outputs a welcome message.
