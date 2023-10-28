@@ -1,11 +1,21 @@
-from forex_python.converter import CurrencyRates
 
-cr = CurrencyRates()
+# Write a program that receives an amount in the US dollar from the user and outputs a message saying the respective amount in BRL
+# Get the currency rate by scraping a website
 
-cr.get_rates('USD')
+import requests
 
-#amount_BRL = int(input("Please enter the amount you want to convert: "))
+from bs4 import BeautifulSoup
 
-#amount_USD = cr.convert('BRL', 'USD', amount_BRL)
+URL = "https://www.forbes.com/advisor/money-transfer/currency-converter/usd-brl/"
 
-#print("With R$ {} you can buy $ {} US dollars.".format(amount_BRL, amount_USD))
+page = requests.get(URL)
+
+soup = BeautifulSoup(page.content, "html.parser")
+
+html_USD_BRL = soup.find('strong')
+
+value_USD_BRL = float(html_USD_BRL.text.split()[3])
+
+user_dollar = float(input('Enter an amount in the US dollar: '))
+
+print('With $ {} you can buy R$ {}'.format(user_dollar, user_dollar * value_USD_BRL))

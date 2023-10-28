@@ -52,8 +52,10 @@ Write a program that receives a number and gives its multiplication table like t
     3 x 9 = 27
     3 x 10 = 30
     ------------
-    
+
 #### Exercise 8
+
+Write a program that receives an amount in the US dollar from the user and outputs a message saying the respective amount in BRL. Get the currency rate by scraping a website.
 
 #### Exercise 9
 
