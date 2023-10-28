@@ -1,4 +1,19 @@
-# A program that reads the user input and outputs information about it
+# Write a program that reads the user input and outputs the following pieces of information about it:
+
+# - Does it have only space?
+
+# - Is it a number?
+
+# - Is it alphabetic?
+
+# - Is it alphanumeric?
+
+# - Is it in uppercase?
+
+# - Is it in lowercase?
+
+# - Is it capitalized?
+
 
 user_input = input('Enter something: ')
 

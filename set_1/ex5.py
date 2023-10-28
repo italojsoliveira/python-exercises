@@ -1,4 +1,4 @@
-# average of two student grades
+# Write a program that receives two student grades and outputs the average grade.
 
 grade_1 = float(input('Enter the first grade: '))
 

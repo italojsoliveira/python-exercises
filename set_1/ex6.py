@@ -1,3 +1,5 @@
+# Write a program that receives a distance value in meters and outputs a message saying its corresponding values in km, hm, dam, dm, cm, and mm.
+
 meter_distance = float(input('Enter the distance in meters: '))
 
 km_distance = meter_distance / 1000

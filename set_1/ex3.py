@@ -1,3 +1,6 @@
+
+# Write a program that reads the user input number and outputs a message saying its antecedent and successor.
+
 user_input = int(input('Enter a number: '))
 
 antecedent = user_input - 1
