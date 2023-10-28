@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-# List of Exercises in Python
+# Exercises with Solutions in Python
 
 Coding exercises and solutions in Python from my studies and practice. Here I make it publicly open for whoever finds it helpful.
 
