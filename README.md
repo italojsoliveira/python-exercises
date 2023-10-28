@@ -1,4 +1,4 @@
-# List of Exercises in Python
+# List of Exercises with Solutions in Python
 
 Website: [https://italojsoliveira.github.io/python-exercises/](https://italojsoliveira.github.io/python-exercises/)
 
