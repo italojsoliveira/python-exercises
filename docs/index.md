@@ -5,6 +5,8 @@ layout: home
 
 # Exercises with Solutions in Python
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 Coding exercises and solutions in Python from my studies and practice. Here I make it publicly open for whoever finds it helpful.
 
 I expect to write more than a thousand exercises with solutions. _This is a work in progress_. The last commit shows the latest updates.
