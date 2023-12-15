@@ -11,7 +11,7 @@ Coding exercises and solutions in Python from my studies and practice. Here I ma
 
 I expect to write more than a thousand exercises with solutions. _This is a work in progress_. The last commit shows the latest updates.
 
-#### Exercise 1
+### Exercise 1
 
 Write a program that reads the user name as an input and outputs a welcome message.
 
