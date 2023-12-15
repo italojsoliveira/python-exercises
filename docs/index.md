@@ -27,6 +27,14 @@ print('Welcome, {}!'.format(user_name))
 ```
 </details>
 
+```python
+user_name = input('Write your first name: ')
+
+print('Welcome,', user_name, '!')
+
+print('Welcome, {}!'.format(user_name))
+```
+
 #### Exercise 2
 
 Write a program that reads the user input and outputs the following pieces of information about it:
