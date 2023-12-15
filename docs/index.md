@@ -19,9 +19,16 @@ Write a program that reads the user name as an input and outputs a welcome messa
   <summary>Click here to see a possible solution</summary>
   
     user_name = input('Write your first name: ')
+<<<<<<< HEAD
     print('Welcome,', user_name, '!')
     print('Welcome, {}!'.format(user_name))
 
+=======
+
+    print('Welcome,', user_name, '!')
+
+    print('Welcome, {}!'.format(user_name))
+>>>>>>> 5aa23be429708f01b99b83ebe0cfaeeee3a4f3d4
 </details>
 
 #### Exercise 2
