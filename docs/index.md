@@ -35,10 +35,6 @@ print('Welcome,', user_name, '!')
 print('Welcome, {}!'.format(user_name))
 ```
 
-{% capture details %}
-DETAILS
-{% endcapture %}
-{% capture summary %}SUMMARY{% endcapture %}{% include details.html %}
 
 <details markdown=block>
 <summary markdown=span>A *Summary*</summary>
