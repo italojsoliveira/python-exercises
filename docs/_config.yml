@@ -4,5 +4,8 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
 aux_links:
   Repository: https://github.com/italojsoliveira/python-exercises
