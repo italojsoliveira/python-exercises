@@ -16,8 +16,8 @@ I expect to write more than a thousand exercises with solutions. _This is a work
 Write a program that reads the user name as an input and outputs a welcome message.
 
 <details>
-  <summary>A possible solution</summary>
-    
+<summary>Click here to see a possible solution</summary>
+
 ```python
 user_name = input('Write your first name: ')
 
