@@ -35,6 +35,11 @@ print('Welcome,', user_name, '!')
 print('Welcome, {}!'.format(user_name))
 ```
 
+{% capture details %}
+DETAILS
+{% endcapture %}
+{% capture summary %}SUMMARY{% endcapture %}{% include details.html %}
+
 #### Exercise 2
 
 Write a program that reads the user input and outputs the following pieces of information about it:
