@@ -4,7 +4,5 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
-highlighter: rouge
-
 aux_links:
   Repository: https://github.com/italojsoliveira/python-exercises
