@@ -43,7 +43,7 @@ Write a program that reads the user input and outputs the following pieces of in
 
 - Is it in lowercase?
 
-- Is it capitalized?
+- Is it capitalized?❗
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
