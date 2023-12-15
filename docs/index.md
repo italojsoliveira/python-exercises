@@ -40,6 +40,13 @@ DETAILS
 {% endcapture %}
 {% capture summary %}SUMMARY{% endcapture %}{% include details.html %}
 
+<details markdown=block>
+<summary markdown=span>A *Summary*</summary>
+These are the **details** for this item.
+
+    Code
+</details>
+
 #### Exercise 2
 
 Write a program that reads the user input and outputs the following pieces of information about it:
