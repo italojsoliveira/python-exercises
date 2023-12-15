@@ -5,7 +5,8 @@ layout: home
 
 # Exercises with Solutions in Python
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://img.shields.io/badge/-Python-grey?&logo=Python)](https://www.python.org/)
+ [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Coding exercises and solutions in Python from my studies and practice. Here I make it publicly open for whoever finds it helpful.
 
@@ -26,7 +27,7 @@ print('Welcome, {}!'.format(user_name))
 </details>
 
 
-#### Exercise 2
+### Exercise 2
 
 Write a program that reads the user input and outputs the following pieces of information about it:
 
@@ -44,23 +45,39 @@ Write a program that reads the user input and outputs the following pieces of in
 
 - Is it capitalized?
 
-#### Exercise 3
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+user_input = input('Enter something: ')
+print('The Python primitive datatype of this value is', type(user_input))
+print('Does it have only space?', user_input.isspace())
+print('Is it a number?', user_input.isnumeric())
+print('Is it alphabetic?', user_input.isalpha())
+print('Is it alphanumeric?', user_input.isalnum())
+print('Is it in uppercase?', user_input.isupper())
+print('Is it in lowercase?', user_input.islower())
+print('Is it capitalized?', user_input.istitle())
+```
+</details>
+
+### Exercise 3
 
 Write a program that reads the user input number and outputs a message saying its antecedent and successor.
 
-#### Exercise 4
+### Exercise 4
 
 Write a program that reads the user input number and outputs a message saying its double, triple, and square root with at most two decimal digits.
 
-#### Exercise 5
+### Exercise 5
 
 Write a program that receives two student grades and outputs the average grade.
 
-#### Exercise 6
+### Exercise 6
 
 Write a program that receives a distance value in meters and outputs a message saying its corresponding values in km, hm, dam, dm, cm, and mm.
 
-#### Exercise 7
+### Exercise 7
 
 Write a program that receives a number and gives its multiplication table like this:
 
@@ -77,15 +94,15 @@ Write a program that receives a number and gives its multiplication table like t
     3 x 10 = 30
     ------------
 
-#### Exercise 8
+### Exercise 8
 
 Write a program that receives an amount in the US dollar from the user and outputs a message saying the respective amount in BRL. Get the currency rate by scraping a website.
 
-#### Exercise 9
+### Exercise 9
 
 Write a program which counts and print the numbers of each character in a string input given by the user. The outcome should be a dictionary. For example, for the input 'abcdefgabc', the output should be {'a':2, 'c':2, 'b':2, 'e':1, 'd':1, 'g':1, 'f':1}
 
-#### Exercise 10
+### Exercise 10
 
 
 
