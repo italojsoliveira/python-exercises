@@ -25,7 +25,9 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.6.1"
-  // _includes/mermaid_config.js
-  {
-    theme: "forest"
-  }
+
+// _includes/mermaid_config.js
+{
+  theme: "forest"
+}
+
