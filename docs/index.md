@@ -202,7 +202,13 @@ print(count)
 
 ### Exercise 10
 
-
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 
 
