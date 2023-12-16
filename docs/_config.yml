@@ -7,5 +7,10 @@ url: https://just-the-docs.github.io
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
 
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "docs/favicon.ico"
+
+
+
 aux_links:
   Repository: https://github.com/italojsoliveira/python-exercises
