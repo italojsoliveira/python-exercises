@@ -193,14 +193,48 @@ Write a program which counts and print the numbers of each character in a string
 
 ```python
 user_input = input('Enter a string: ')
-count = dict()
-for string in user_input:
-    count[string] = count.get(string, 0) + 1
-print(count)
+
 ```
 </details>
 
 ### Exercise 10
+
+ Write a program that asks for a string and outputs the reverse of it.
+
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+user_input = input('Enter a string: ')
+
+print(user_input[::-1])
+```
+</details>
+
+### Exercise 11
+
+ Write a program which asks for a string, checks if it contains a substring, and outputs a corresponding message.
+
+...
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+user_input_1 = input('Enter a string: ')
+user_input_2 = input('Enter a string: ')
+
+if user_input_2 in user_input_1:
+
+    print('The former string contains the latter as a substring.')
+
+else:
+
+    print('The former string does NOT contain the latter as a substring.')
+
+```
+</details>
 
 ```mermaid
 graph TD;
