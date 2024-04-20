@@ -216,8 +216,6 @@ print(user_input[::-1])
 
  Write a program which asks for a string, checks if it contains a substring, and outputs a corresponding message.
 
-...
-
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
 
@@ -235,6 +233,68 @@ else:
 
 ```
 </details>
+
+
+### Exercise 12
+
+Finding the maximum value in a list
+
+### Exercise 13
+
+Finding the index of the maximum value in a list
+
+### Exercise 14
+
+Reversing a list
+
+### Exercise 15
+
+Sorting a dictionary by value
+
+### Exercise 16
+
+Checking if a file exists
+
+### Exercise 17
+
+Counting the occurrence of an item in a list
+
+### Exercise 18
+
+Checking if all elements in a list are unique
+
+### Exercise 19
+
+Removing the occurrence of an item in a list
+
+### Exercise 20
+
+Flattening a nested list
+
+### Exercise 21
+
+Merging two dictionaries
+
+### Exercise 22
+
+Removing all whitespace from a string
+
+### Exercise 23
+
+Checking if a string is a palindrome
+
+### Exercise 24
+
+Removing duplicates from a string
+
+### Exercise 25
+
+Counting the number of words in a string
+
+### Exercise 26
+
+Generating a random integer
+
 
 ```mermaid
 graph TD;
