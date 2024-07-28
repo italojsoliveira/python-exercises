@@ -1,4 +1,4 @@
-#  Finding the maximum value in a list
+#  Create a list composed by pseudo-random integer numbers and find the maximum value in it.
 
 import random
 
