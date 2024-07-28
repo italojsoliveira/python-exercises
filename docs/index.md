@@ -279,6 +279,9 @@ print('The index of the maximum integer of the "list_variable" list is', list_va
 
 ### Exercise 14
 
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
 Create a list and reverse it.
 
 ```python
