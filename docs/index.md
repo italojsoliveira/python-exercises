@@ -279,7 +279,16 @@ print('The index of the maximum integer of the "list_variable" list is', list_va
 
 ### Exercise 14
 
-Reversing a list
+Create a list and reverse it.
+
+```python
+list_variable = [1, 2, 3, 4, 5]
+
+reverse_list = list_variable[::-1]
+
+print(reverse_list)
+```
+</details>
 
 ### Exercise 15
 
