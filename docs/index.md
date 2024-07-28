@@ -8,9 +8,9 @@ layout: home
 [![](https://img.shields.io/badge/-Python-grey?&logo=Python)](https://www.python.org/)
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Coding exercises and solutions in Python from my studies and practice. Here I make it publicly open for whoever finds it helpful.
+Coding exercises and solutions in Python. They are code snippets that may be useful for everyday tasks.
 
-I expect to write more than a thousand exercises with solutions. _This is a work in progress_. The last commit shows the latest updates.
+_This is a work in progress_. The last commit shows the latest updates.
 
 ### Exercise 1
 
@@ -292,6 +292,7 @@ reverse_list = list_variable[::-1]
 print(reverse_list)
 ```
 </details>
+
 
 ### Exercise 15
 
