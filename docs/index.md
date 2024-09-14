@@ -27,7 +27,7 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 12: Pseudo-random integers and maximum value](#exercise-12-pseudo-random-integers-and-maximum-value)
     - [Exercise 13: Pseudo-random integers and index](#exercise-13-pseudo-random-integers-and-index)
     - [Exercise 14: Reversing a list](#exercise-14-reversing-a-list)
-    - [Exercise 15: Sorting a dictionary](#exercise-15-sorting-a-dictionary)
+    - [Exercise 15: Sorting a dictionary by value with pseudo-random numbers](#exercise-15-sorting-a-dictionary-by-value-with-pseudo-random-numbers)
     - [Exercise 16: Checking if a file exists](#exercise-16-checking-if-a-file-exists)
     - [Exercise 17](#exercise-17)
     - [Exercise 18](#exercise-18)
@@ -266,7 +266,7 @@ else:
 
 ### Exercise 12: Pseudo-random integers and maximum value
 
-Create a list composed by pseudo-random integer numbers and find the maximum value in it.
+Create a list composed of pseudo-random integer numbers and find the maximum value in it.
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
@@ -287,7 +287,7 @@ print('The maximum integer of the "list_variable" list is', max(list_variable))
 
 ### Exercise 13: Pseudo-random integers and index
 
-Create a list composed by pseudo-random integer numbers and find the index of the maximum value in it.
+Create a list composed of pseudo-random integer numbers and find the index of the maximum value in it.
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
@@ -323,9 +323,25 @@ print(reverse_list)
 </details>
 
 
-### Exercise 15: Sorting a dictionary
+### Exercise 15: Sorting a dictionary by value with pseudo-random numbers
 
-Sorting a dictionary by value
+Create a dictionary with four keys, each having a pseudo-random integer as its value. Sort the dictionary by value.
+
+```python
+import random
+
+points = {
+    "Mary": random.randint(0, 100000), "John": random.randint(0, 100000),
+    "Teresa": random.randint(0, 100000), "Peter": random.randint(0, 100000)
+    }
+
+sorted_dict = {
+    k: v for k, v in sorted(points.items(), key=lambda item: item[1])
+}
+
+print(sorted_dict)
+```
+</details>
 
 ### Exercise 16: Checking if a file exists
 
