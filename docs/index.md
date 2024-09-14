@@ -22,13 +22,13 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 7: Multiplication table](#exercise-7-multiplication-table)
     - [Exercise 8: Currency conversion using web scrapping](#exercise-8-currency-conversion-using-web-scrapping)
     - [Exercise 9: Counting string characters and storing in a dictionary](#exercise-9-counting-string-characters-and-storing-in-a-dictionary)
-    - [Exercise 10](#exercise-10)
-    - [Exercise 11](#exercise-11)
-    - [Exercise 12](#exercise-12)
-    - [Exercise 13](#exercise-13)
-    - [Exercise 14](#exercise-14)
-    - [Exercise 15](#exercise-15)
-    - [Exercise 16](#exercise-16)
+    - [Exercise 10: Reversing a string](#exercise-10-reversing-a-string)
+    - [Exercise 11: Checking substrings](#exercise-11-checking-substrings)
+    - [Exercise 12: Pseudo-random integers and maximum value](#exercise-12-pseudo-random-integers-and-maximum-value)
+    - [Exercise 13: Pseudo-random integers and index](#exercise-13-pseudo-random-integers-and-index)
+    - [Exercise 14: Reversing a list](#exercise-14-reversing-a-list)
+    - [Exercise 15: Sorting a dictionary](#exercise-15-sorting-a-dictionary)
+    - [Exercise 16: Checking if a file exists](#exercise-16-checking-if-a-file-exists)
     - [Exercise 17](#exercise-17)
     - [Exercise 18](#exercise-18)
     - [Exercise 19](#exercise-19)
@@ -226,7 +226,7 @@ user_input = input('Enter a string: ')
 ```
 </details>
 
-### Exercise 10
+### Exercise 10: Reversing a string
 
  Write a program that asks for a string and outputs the reverse of it.
 
@@ -241,7 +241,7 @@ print(user_input[::-1])
 ```
 </details>
 
-### Exercise 11
+### Exercise 11: Checking substrings
 
  Write a program which asks for a string, checks if it contains a substring, and outputs a corresponding message.
 
@@ -264,7 +264,7 @@ else:
 </details>
 
 
-### Exercise 12
+### Exercise 12: Pseudo-random integers and maximum value
 
 Create a list composed by pseudo-random integer numbers and find the maximum value in it.
 
@@ -285,7 +285,7 @@ print('The maximum integer of the "list_variable" list is', max(list_variable))
 ```
 </details>
 
-### Exercise 13
+### Exercise 13: Pseudo-random integers and index
 
 Create a list composed by pseudo-random integer numbers and find the index of the maximum value in it.
 
@@ -306,7 +306,7 @@ print('The index of the maximum integer of the "list_variable" list is', list_va
 ```
 </details>
 
-### Exercise 14
+### Exercise 14: Reversing a list
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
@@ -323,11 +323,11 @@ print(reverse_list)
 </details>
 
 
-### Exercise 15
+### Exercise 15: Sorting a dictionary
 
 Sorting a dictionary by value
 
-### Exercise 16
+### Exercise 16: Checking if a file exists
 
 Checking if a file exists
 
