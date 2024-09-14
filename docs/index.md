@@ -316,6 +316,8 @@ print('The index of the maximum integer of the "list_variable" list is', list_va
 
 ### Exercise 14: Reversing a list
 
+Create a program that reverses a list.
+
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
 
@@ -354,7 +356,7 @@ print(sorted_dict)
 
 ### Exercise 16: Checking if a file exists
 
-Check if a file exists
+Create a program that check if a file exists in a directory.
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
