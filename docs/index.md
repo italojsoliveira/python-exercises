@@ -12,6 +12,38 @@ Coding exercises and solutions in Python. They are code snippets that may be use
 
 _This is a work in progress_. The last commit shows the latest updates.
 
+## Table of Contents
+
+- [Exercises with Solutions in Python](#exercises-with-solutions-in-python)
+  - [Table of Contents](#table-of-contents)
+    - [Exercise 1: Input/output strings](#exercise-1-inputoutput-strings)
+    - [Exercise 2: Some Boolean string methods](#exercise-2-some-boolean-string-methods)
+    - [Exercise 3: Input/output numbers](#exercise-3-inputoutput-numbers)
+    - [Exercise 4: Formatting strings](#exercise-4-formatting-strings)
+    - [Exercise 5: Computing the average grade](#exercise-5-computing-the-average-grade)
+    - [Exercise 6: Distance conversions](#exercise-6-distance-conversions)
+    - [Exercise 7: Multiplication table](#exercise-7-multiplication-table)
+    - [Exercise 8: Currency conversion using web scrapping](#exercise-8-currency-conversion-using-web-scrapping)
+    - [Exercise 9: Counting string characters and storing in a dictionary](#exercise-9-counting-string-characters-and-storing-in-a-dictionary)
+    - [Exercise 10](#exercise-10)
+    - [Exercise 11](#exercise-11)
+    - [Exercise 12](#exercise-12)
+    - [Exercise 13](#exercise-13)
+    - [Exercise 14](#exercise-14)
+    - [Exercise 15](#exercise-15)
+    - [Exercise 16](#exercise-16)
+    - [Exercise 17](#exercise-17)
+    - [Exercise 18](#exercise-18)
+    - [Exercise 19](#exercise-19)
+    - [Exercise 20](#exercise-20)
+    - [Exercise 21](#exercise-21)
+    - [Exercise 22](#exercise-22)
+    - [Exercise 23](#exercise-23)
+    - [Exercise 24](#exercise-24)
+    - [Exercise 25](#exercise-25)
+    - [Exercise 26](#exercise-26)
+
+
 ### Exercise 1: Input/output strings
 
 Write a program that reads the user name as an input and outputs a welcome message.
