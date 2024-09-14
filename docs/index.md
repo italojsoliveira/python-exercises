@@ -223,6 +223,14 @@ Write a program which counts and print the numbers of each character in a string
 ```python
 user_input = input('Enter a string: ')
 
+count = dict()
+
+for string in user_input:
+
+    count[string] = count.get(string, 0) + 1
+
+print(count)
+
 ```
 </details>
 
@@ -346,7 +354,20 @@ print(sorted_dict)
 
 ### Exercise 16: Checking if a file exists
 
-Checking if a file exists
+Check if a file exists
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+import os
+
+if os.path.isfile("file.txt"):
+    print("File exists!")
+else:
+    print("File does not exists!")
+```
+</details>
 
 ### Exercise 17
 
