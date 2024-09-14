@@ -12,10 +12,7 @@ Coding exercises and solutions in Python. They are code snippets that may be use
 
 _This is a work in progress_. The last commit shows the latest updates.
 
-## Table of Contents
-
 - [Exercises with Solutions in Python](#exercises-with-solutions-in-python)
-  - [Table of Contents](#table-of-contents)
     - [Exercise 1: Input/output strings](#exercise-1-inputoutput-strings)
     - [Exercise 2: Some Boolean string methods](#exercise-2-some-boolean-string-methods)
     - [Exercise 3: Input/output numbers](#exercise-3-inputoutput-numbers)
