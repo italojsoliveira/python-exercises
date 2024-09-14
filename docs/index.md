@@ -12,7 +12,7 @@ Coding exercises and solutions in Python. They are code snippets that may be use
 
 _This is a work in progress_. The last commit shows the latest updates.
 
-### Exercise 1
+### Exercise 1: Input/output strings
 
 Write a program that reads the user name as an input and outputs a welcome message.
 
@@ -27,7 +27,7 @@ print('Welcome, {}!'.format(user_name))
 </details>
 
 
-### Exercise 2
+### Exercise 2: Some Boolean string methods
 
 Write a program that reads the user input and outputs the following pieces of information about it:
 
@@ -61,7 +61,7 @@ print('Is it capitalized?', user_input.istitle())
 ```
 </details>
 
-### Exercise 3
+### Exercise 3: Input/output numbers
 
 Write a program that reads the user input number and outputs a message saying its antecedent and successor.
 
@@ -76,7 +76,7 @@ print('By analyzing number {}, its antecedent is {} and its successor is {}.'.fo
 ```
 </details>
 
-### Exercise 4
+### Exercise 4: Formatting strings
 
 Write a program that reads the user input number and outputs a message saying its double, triple, and square root with at most two decimal digits.
 
@@ -91,7 +91,7 @@ print(  'The square root of {} is {:.2f}.'.format(user_input, user_input ** 0.5)
 ```
 </details>
 
-### Exercise 5
+### Exercise 5: Computing the average grade
 
 Write a program that receives two student grades and outputs the average grade.
 
@@ -107,7 +107,7 @@ print('The average between {} and {} is {}'.format(grade_1, grade_2, (grade_1 + 
 ```
 </details>
 
-### Exercise 6
+### Exercise 6: Distance conversions
 
 Write a program that receives a distance value in meters and outputs a message saying its corresponding values in km, hm, dam, dm, cm, and mm.
 
@@ -127,7 +127,7 @@ print('The measure of {} m correspond to \n {} km \n {} hm \n {} dam \n {} dm \n
 ```
 </details>
 
-### Exercise 7
+### Exercise 7: Multiplication table
 
 Write a program that receives a number and gives its multiplication table like this:
 
@@ -164,7 +164,7 @@ print('-' * 12)
 ```
 </details>
 
-### Exercise 8
+### Exercise 8: Currency conversion using web scrapping
 
 Write a program that receives an amount in the US dollar from the user and outputs a message saying the respective amount in BRL. Get the currency rate by scraping a website.
 
@@ -184,7 +184,7 @@ print('With $ {} you can buy R$ {}'.format(user_dollar, user_dollar * value_USD_
 ```
 </details>
 
-### Exercise 9
+### Exercise 9: Counting string characters and storing in a dictionary 
 
 Write a program which counts and print the numbers of each character in a string input given by the user. The outcome should be a dictionary. For example, for the input 'abcdefgabc', the output should be {'a':2, 'c':2, 'b':2, 'e':1, 'd':1, 'g':1, 'f':1}
 
