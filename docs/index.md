@@ -311,8 +311,6 @@ print('The index of the maximum integer of the "list_variable" list is', list_va
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
 
-Create a list and reverse it.
-
 ```python
 list_variable = [1, 2, 3, 4, 5]
 
@@ -326,6 +324,9 @@ print(reverse_list)
 ### Exercise 15: Sorting a dictionary by value with pseudo-random numbers
 
 Create a dictionary with four keys, each having a pseudo-random integer as its value. Sort the dictionary by value.
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
 
 ```python
 import random
