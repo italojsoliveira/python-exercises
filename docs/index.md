@@ -29,7 +29,7 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 14: Reversing a list](#exercise-14-reversing-a-list)
     - [Exercise 15: Sorting a dictionary by value with pseudo-random numbers](#exercise-15-sorting-a-dictionary-by-value-with-pseudo-random-numbers)
     - [Exercise 16: Checking if a file exists](#exercise-16-checking-if-a-file-exists)
-    - [Exercise 17](#exercise-17)
+    - [Exercise 17: Counting the occurrence of each item in the list](#exercise-17-counting-the-occurrence-of-each-item-in-the-list)
     - [Exercise 18](#exercise-18)
     - [Exercise 19](#exercise-19)
     - [Exercise 20](#exercise-20)
@@ -371,7 +371,7 @@ else:
 ```
 </details>
 
-### Exercise 17
+### Exercise 17: Counting the occurrence of each item in the list
 
 Create a list with random numbers. Count the occurrence of each item in the list and store the result in a dictionary.
 
