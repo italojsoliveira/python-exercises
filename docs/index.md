@@ -30,7 +30,7 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 15: Sorting a dictionary by value with pseudo-random numbers](#exercise-15-sorting-a-dictionary-by-value-with-pseudo-random-numbers)
     - [Exercise 16: Checking if a file exists](#exercise-16-checking-if-a-file-exists)
     - [Exercise 17: Counting the occurrence of each item in the list](#exercise-17-counting-the-occurrence-of-each-item-in-the-list)
-    - [Exercise 18](#exercise-18)
+    - [Exercise 18: Checking if all elements in a list are unique](#exercise-18-checking-if-all-elements-in-a-list-are-unique)
     - [Exercise 19](#exercise-19)
     - [Exercise 20](#exercise-20)
     - [Exercise 21](#exercise-21)
@@ -400,9 +400,9 @@ print(element_count)
 ```
 </details>
 
-### Exercise 18
+### Exercise 18: Checking if all elements in a list are unique
 
-Create a list with pseudo-random integer numbers. Then, check all elements in this list are unique or not.
+Create a list with pseudo-random integer numbers. Then, check if all elements in this list are unique or not.
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
