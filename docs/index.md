@@ -373,7 +373,7 @@ else:
 
 ### Exercise 17: Counting the occurrence of each item in the list
 
-Create a list with random numbers. Count the occurrence of each item in the list and store the result in a dictionary.
+Create a list with pseudo-random numbers. Count the occurrence of each item in the list and store the result in a dictionary.
 
 <details markdown=block>
 <summary markdown=span>Click here to see a possible solution</summary>
@@ -402,7 +402,26 @@ print(element_count)
 
 ### Exercise 18
 
-Checking if all elements in a list are unique
+Create a list with pseudo-random integer numbers. Then, check all elements in this list are unique or not.
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+import random as rd
+
+my_list = []
+
+for i in range(0,10):
+    my_list.append(rd.randint(0,100))
+
+print(my_list)
+if len(my_list) == len(set(my_list)):
+    print("All elements in this list are unique!")
+else:
+    print("Not all elements in this list are unique!")
+```
+</details>
 
 ### Exercise 19
 
