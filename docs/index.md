@@ -31,10 +31,10 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 16: Checking if a file exists](#exercise-16-checking-if-a-file-exists)
     - [Exercise 17: Counting the occurrence of each item in the list](#exercise-17-counting-the-occurrence-of-each-item-in-the-list)
     - [Exercise 18: Checking if all elements in a list are unique](#exercise-18-checking-if-all-elements-in-a-list-are-unique)
-    - [Exercise 19](#exercise-19)
-    - [Exercise 20](#exercise-20)
-    - [Exercise 21](#exercise-21)
-    - [Exercise 22](#exercise-22)
+    - [Exercise 19: Removing all occurrences of an item from a list](#exercise-19-removing-all-occurrences-of-an-item-from-a-list)
+    - [Exercise 20: Flattening a nested list](#exercise-20-flattening-a-nested-list)
+    - [Exercise 21: Merging two dictionaries](#exercise-21-merging-two-dictionaries)
+    - [Exercise 22: Removing all whitespace from a string](#exercise-22-removing-all-whitespace-from-a-string)
     - [Exercise 23](#exercise-23)
     - [Exercise 24](#exercise-24)
     - [Exercise 25](#exercise-25)
@@ -423,21 +423,64 @@ else:
 ```
 </details>
 
-### Exercise 19
+### Exercise 19: Removing all occurrences of an item from a list
 
-Removing the occurrence of an item in a list
+Create a program that removes all occurrences of an item from a list.
 
-### Exercise 20
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
 
-Flattening a nested list
+```python
+my_list = [1, 2, 3, 4, 5, 6, 3, 1]
+item = 1
+my_new_list = [x for x in my_list if x != item]
+print(my_list, "\n", my_new_list)
+```
+</details>
 
-### Exercise 21
+### Exercise 20: Flattening a nested list
 
-Merging two dictionaries
+Create a program that flattens a nested list.
 
-### Exercise 22
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
 
-Removing all whitespace from a string
+```python
+my_list = [[1,2], [3,4], [5,6]]
+flattened_list = [x for sublist in my_list for x in sublist]
+print(flattened_list)
+```
+</details>
+
+### Exercise 21: Merging two dictionaries
+
+Create a program that merges two dictionaries.
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+dict1 = {'apple': 3, 'banana': 1}
+dict2 = {'orange':2, 'pear': 4}
+merged_dict = {**dict1, **dict2}
+print(merged_dict)
+```
+</details>
+
+### Exercise 22: Removing all whitespace from a string
+
+Create a program that removes all whitespace from a string.
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+my_string = "   hello    world    "
+print(my_string)
+new_string = "".join(my_string.split())
+print(new_string)
+```
+</details>
 
 ### Exercise 23
 
