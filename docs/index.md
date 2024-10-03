@@ -36,7 +36,7 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 21: Merging two dictionaries](#exercise-21-merging-two-dictionaries)
     - [Exercise 22: Removing all whitespace from a string](#exercise-22-removing-all-whitespace-from-a-string)
     - [Exercise 23: Checking if a string is a palindrome](#exercise-23-checking-if-a-string-is-a-palindrome)
-    - [Exercise 24](#exercise-24)
+    - [Exercise 24: Counting the number of words in a string](#exercise-24-counting-the-number-of-words-in-a-string)
     - [Exercise 25](#exercise-25)
     - [Exercise 26](#exercise-26)
 
@@ -498,13 +498,23 @@ else:
 ```
 </details>
 
-### Exercise 24
+### Exercise 24: Counting the number of words in a string
 
-Removing duplicates from a string
+Create a program that counts the number of words in a string.
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+sentence = "Today I learnt Python at school."
+word_count = len(sentence.split())
+print("Word count: ", word_count)
+```
+</details>
 
 ### Exercise 25
 
-Counting the number of words in a string
+
 
 ### Exercise 26
 
