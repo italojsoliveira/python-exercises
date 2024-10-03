@@ -8,9 +8,7 @@ layout: home
 [![](https://img.shields.io/badge/-Python-grey?&logo=Python)](https://www.python.org/)
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Coding exercises and solutions in Python. They are code snippets that may be useful for everyday tasks.
-
-_This is a work in progress_. The last commit shows the latest updates.
+Coding exercises and solutions in Python. They can also be seen as code snippets that may be useful for some everyday tasks.
 
 - [Exercises with Solutions in Python](#exercises-with-solutions-in-python)
     - [Exercise 1: Input/output strings](#exercise-1-inputoutput-strings)
