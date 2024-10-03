@@ -35,7 +35,7 @@ _This is a work in progress_. The last commit shows the latest updates.
     - [Exercise 20: Flattening a nested list](#exercise-20-flattening-a-nested-list)
     - [Exercise 21: Merging two dictionaries](#exercise-21-merging-two-dictionaries)
     - [Exercise 22: Removing all whitespace from a string](#exercise-22-removing-all-whitespace-from-a-string)
-    - [Exercise 23](#exercise-23)
+    - [Exercise 23: Checking if a string is a palindrome](#exercise-23-checking-if-a-string-is-a-palindrome)
     - [Exercise 24](#exercise-24)
     - [Exercise 25](#exercise-25)
     - [Exercise 26](#exercise-26)
@@ -482,9 +482,21 @@ print(new_string)
 ```
 </details>
 
-### Exercise 23
+### Exercise 23: Checking if a string is a palindrome
 
-Checking if a string is a palindrome
+Palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or nurses run. Write a program that checks if an arbitrary string is a palindrome.
+
+<details markdown=block>
+<summary markdown=span>Click here to see a possible solution</summary>
+
+```python
+my_string =input('Enter a string to check if it is a palindrome: ')
+if my_string[::-1] == my_string:
+    print(my_string, "is a palindrome.")
+else:
+    print(my_string, "is not a palindroe.")
+```
+</details>
 
 ### Exercise 24
 

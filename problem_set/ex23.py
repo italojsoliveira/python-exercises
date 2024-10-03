@@ -1,5 +1,9 @@
-# Flattening a nested list
+# Palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or nurses run.
+# Checking if a string is a palindrome
 
-my_list = [[1,2], [3,4], [5,6]]
-flattened_list = [x for sublist in my_list for x in sublist]
-print(flattened_list)
+my_string =input('Enter a string to check if it is a palindrome: ')
+
+if my_string[::-1] == my_string:
+    print(my_string, "is a palindrome.")
+else:
+    print(my_string, "is not a palindroe.")
